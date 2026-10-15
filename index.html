@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Balog Edit | Full-stack és Mobilalkalmazás fejlesztő portfólió"
+    />
+    <meta
+      name="keywords"
+      content="Balog Edit, portfólió, fejlesztő, React, Java, C#, Flutter, UMFST"
+    />
+    <meta name="author" content="Balog Edit" />
+    <title>Balog Edit | CV | Portfolio</title>
+
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.jpg" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/text.css" />
+    <link rel="stylesheet" href="css/960_24_col.css" />
+    <link rel="stylesheet" href="css/sytles.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Lobster|PT+Sans+Narrow:400,700|PT+Sans:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script language="javascript" src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="js/scroll-startstop.events.jquery.js" type="text/javascript"></script>
+    <script language="javascript" src="js/jquery.tips.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-SAJATKOD');
+    </script>
+
+    <script type="text/javascript">
+      $('document').ready(function () {
+        var percent = $('.progress_bar').attr('title');
+        $('.progress_bar').animate({width: percent}, 1000);
+        var percent = $('.html').attr('title');
+        $('.html').animate({width: percent}, 1000);
+        var percent = $('.php').attr('title');
+        $('.php').animate({width: percent}, 1000);
+        var percent = $('.css').attr('title');
+        $('.css').animate({width: percent}, 1000);
+        var percent = $('.flash').attr('title');
+        $('.flash').animate({width: percent}, 1000);
+        var percent = $('.java').attr('title');
+        $('.java').animate({width: percent}, 1000);
+        var percent = $('.cms').attr('title');
+        $('.cms').animate({width: percent}, 1000);
+        var percent = $('.seo').attr('title');
+        $('.seo').animate({width: percent}, 1000);
+
+        // Tooltip aktiválása
+        $('.tip').tipsy({gravity: 's', fade: true});
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(function () {
+        $('#gallery a').lightBox();
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#gallery img').fadeTo('fast', 0.8);
+        $('#gallery img').hover(
+          function () {
+            $(this).fadeTo('fast', 1.0);
+          },
+          function () {
+            $(this).fadeTo('fast', 0.8);
+          },
+        );
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(function () {
+        var $elem = $('.container_24');
+        $('#nav_up').fadeIn('slow');
+        $('#nav_down').fadeIn('slow');
+        $(window).bind('scrollstart', function () {
+          $('#nav_up,#nav_down').stop().animate({opacity: '0.2'});
+        });
+        $(window).bind('scrollstop', function () {
+          $('#nav_up,#nav_down').stop().animate({opacity: '1'});
+        });
+        $('#nav_down').click(function (e) {
+          $('html, body').animate({scrollTop: $elem.height()}, 800);
+        });
+        $('#nav_up').click(function (e) {
+          $('html, body').animate({scrollTop: '0px'}, 800);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="header">
+      <ul class="social_panel">
+        <li>
+          <a
+            href="https://www.facebook.com/profile.php?id=100010011421580"
+            title="Facebook Profil"
+            class="blue-darker"
+            ><img src="img/facebook.png" width="24" height="24" alt="Facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/edit-balog" title="LinkedIn Profil" class="blue-dark"
+            ><img src="img/linkedin.png" width="24" height="24" alt="LinkedIn"
+          /></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container_24">
+      <div class="grid_1"><div class="holder"></div></div>
+
+      <!-- CÍMSOR -->
+      <div class="grid_9">
+        <div id="name_tittle">
+          <h1>Balog Edit</h1>
+          <ul>
+            <li>Végzős Informatikus | Full-Stack & Mobil Fejlesztő</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid_3"><div class="holder"></div></div>
+      <div class="grid_1"><div class="holder"></div></div>
+
+      <div class="icon_list">
+        <div class="grid_7">
+          <div class="work_list">
+            <h1>ELÉRHETŐSÉGEK :</h1>
+            <h3>WEB, MOBIL ÉS SZOFTVERFEJLESZTÉS</h3>
+
+            <h2>Kapcsolat</h2>
+            <ul>
+              <li>editecske09@gmail.com</li>
+              <li>(+40) 770 924 563</li>
+              <li>Marosvásárhely</li>
+            </ul>
+            <h2>Profilok</h2>
+            <ul>
+              <li>
+                <a target="_blank" href="https://github.com/baloogedit">GitHub Repók</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.linkedin.com/in/edit-balog">LinkedIn profil</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100010011421580"
+                  >Facebook profil</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid_1"><div class="holder"></div></div>
+        <div class="clear"></div>
+
+        <div class="grid_1"><div class="holder"></div></div>
+
+        <!-- SZEMÉLYES ÖSSZEFOGLALÓ -->
+        <div class="grid_10">
+          <div class="ribbon2">Rólam</div>
+          <img class="floatLeft" src="img/balog_edit_profil.JPG" alt="Balog Edit" />
+          <div class="item">
+            <p>
+              Végzős informatikus hallgató vagyok a marosvásárhelyi UMFST egyetemen, full-stack web-
+              és mobilalkalmazás-fejlesztésre specializálódva. Szenvedélyem az end-to-end
+              alkalmazások tervezése és fejlesztése – a Linux hálózati környezetek beállításától a
+              reszponzív UI-k kialakításáig. Erős problémamegoldó készséggel rendelkezem, a modern
+              elméleti algoritmusokat a gyakorlatban is képes vagyok alkalmazni, és szeretek
+              csapatban dolgozni.
+            </p>
+          </div>
+
+          <div class="ribbon2">Tapasztalatok röviden</div>
+          <div class="item">
+            <p>A technológiai fókuszom és eddigi szakmai utam a következő területeket fedi le:</p>
+          </div>
+          <div class="grid_10">
+            <div class="why_me">
+              <ul>
+                <li>Full-Stack Webfejlesztés (React, TypeScript, Tailwind, .NET, NestJS)</li>
+                <li>Cross-Platform Mobilfejlesztés (Flutter, Dart, Firebase)</li>
+                <li>Asztali és Backend Rendszerek (Java, C#, MongoDB, SQL)</li>
+                <li>Hálózati architektúrák és Linux környezetek</li>
+                <li>Agilis csapatmunka és modern UI tervezés</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="grid_10"><br /><br /></div>
+
+          <div class="ribbon2">Tanulmányok</div>
+          <div class="item_tittle">
+            <h1>
+              <a target="_blank" href="https://umfst.ro">UMFST G.E. Palade</a
+              ><span>2024 - Jelenleg</span>
+            </h1>
+            <h2>Informatika BSc | Marosvásárhely</h2>
+            <div class="item">
+              <p>
+                Végzős hallgató. Az évfolyamunk hivatalos képviselője, az egyetemi tanácsokkal és
+                professzorokkal való kapcsolattartásért felelős hallgató.
+              </p>
+            </div>
+          </div>
+
+          <div class="item_tittle">
+            <h1>Bolyai Farkas Elméleti Líceum<span>2020 - 2024</span></h1>
+            <h2>Középiskolai tanulmányok | Marosvásárhely</h2>
+            <div class="item">
+              <p>Itt alapoztam meg a kitartásomat és a tanulás iránti elkötelezettségemet.</p>
+            </div>
+          </div>
+
+          <div class="grid_10">
+            <div class="ribbon2">Nyelvek</div>
+            <div class="why_me">
+              <ul>
+                <li><b>Magyar</b> (Anyanyelv)</li>
+                <li><b>Angol</b> (Folyékony)</li>
+                <li><b>Román</b> (Folyékony)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="grid_10">
+            <div class="ribbon2">Hobbik és Érdeklődés</div>
+            <div class="why_me">
+              <ul>
+                <li>Néptánc (aktív tagja vagyok egy 22 fős együttesnek)</li>
+                <li>Fotózás és túrázás</li>
+                <li>Stratégiai és társasjátékok, csapatsportok</li>
+                <li>Otthoni borkészítés és gasztronómia</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="grid_2"><div class="vertical_line"></div></div>
+
+        <div class="grid_10">
+          <div class="ribbon2">Technológiák</div>
+          <div id="technical_skill">
+            <div id="skill_list2">
+              <ul>
+                <li>HTML / CSS</li>
+                <li>React / Tailwind</li>
+                <li>Java / Spring</li>
+                <li>C# / .NET Blazor</li>
+                <li>TypeScript / JS</li>
+                <li>SQL / MongoDB</li>
+                <li>Flutter / Dart</li>
+                <li>Git / Linux</li>
+              </ul>
+            </div>
+            <div id="skill_set">
+              <ul>
+                <li>
+                  <div class="progress_container"><div class="html tip" title="95%"></div></div>
+                </li>
+                <li>
+                  <div class="progress_container"><div class="css tip" title="90%"></div></div>
+                </li>
+                <li>
+                  <div class="progress_container"><div class="java tip" title="85%"></div></div>
+                </li>
+                <li>
+                  <div class="progress_container"><div class="php tip" title="80%"></div></div>
+                </li>
+                <li>
+                  <div class="progress_container"><div class="cms tip" title="85%"></div></div>
+                </li>
+                <li>
+                  <div class="progress_container"><div class="seo tip" title="80%"></div></div>
+                </li>
+                <li>
+                  <div class="progress_container"><div class="flash tip" title="75%"></div></div>
+                </li>
+                <li>
+                  <div class="progress_container">
+                    <div class="progress_bar tip" title="85%"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="ribbon2">Szakmai Tapasztalat</div>
+
+          <div class="item_tittle">
+            <h1>Kadeno Solutions<span>2026 Júl - Aug</span></h1>
+            <h2>Nyári Gyakornok | Marosvásárhely</h2>
+          </div>
+          <div class="item">
+            <p>
+              <b>Local Market E-Commerce Platform:</b> React, Vite, TypeScript és Tailwind CSS
+              segítségével csapatban fejlesztettünk egy reszponzív SPA-t. Komplex UI komponenseket
+              építettem (keresők, kosár) és NestJS API-kkal integráltam a frontendet.
+            </p>
+          </div>
+
+          <div class="item_tittle">
+            <h1>Topmotive<span>2026 Jún - Júl</span></h1>
+            <h2>Nyári Gyakornok | Marosvásárhely</h2>
+          </div>
+          <div class="item">
+            <p>
+              Full-stack cikkkezelő webalkalmazást fejlesztettem C# és .NET Blazor keretrendszerrel,
+              valamint egy Car Shop alkalmazás robusztus backend szolgáltatásait struktúráltam.
+            </p>
+          </div>
+
+          <div class="ribbon2">Kiemelt Projektek</div>
+
+          <div class="item_tittle">
+            <h1>Kórházi Előjegyzési Rendszer<span>Saját projekt</span></h1>
+            <h2>Flutter, Dart, Firebase</h2>
+          </div>
+          <div class="item">
+            <p>
+              Cross-platform mobilalkalmazás fejlesztése, amely optimalizálja a betegek
+              időpontfoglalási folyamatát. Cloud Firestore-ba integrált NoSQL backend és Firebase
+              Auth az azonosításhoz.
+            </p>
+          </div>
+
+          <div class="item_tittle">
+            <h1>Néptáncegyüttes Menedzsment<span>Saját projekt</span></h1>
+            <h2>Java, Java Swing, JSON</h2>
+          </div>
+          <div class="item">
+            <p>
+              Komplex asztali alkalmazás a 22 fős saját néptáncegyüttesem logisztikai és szervezési
+              feladatainak optimalizálására fejlett OOP elvek mentén.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid_1"><div class="holder"></div></div>
+        <div class="clear"></div>
+
+        <div class="grid_1"><div class="holder"></div></div>
+        <div class="grid_22"><div class="ribbon_portfolio">Diplomák és Galéria</div></div>
+        <div class="grid_1"><div class="holder"></div></div>
+
+        <div class="grid_24">
+          <div id="gallery">
+            <ul>
+              <li>
+                <a href="img/accenture_diploma.jpg" title="Accenture Academy Diploma">
+                  <img src="img/accenture_diploma.jpg" alt="Accenture Academy Diploma" width="200"
+                /></a>
+              </li>
+              <li>
+                <a href="img/topmotive_diploma.jpg" title="Topmotive Diploma">
+                  <img src="img/topmotive_diploma.jpg" alt="Topmotive Diploma" width="200"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid_24"><div class="horisontal_line"></div></div>
+        <div class="grid_1"><div class="holder"></div></div>
+
+        <div class="grid_10">
+          <div class="ribbon2">Miért dolgozzunk együtt?</div>
+          <div class="why_me">
+            <ul>
+              <li>Rendszerszemléletű gondolkodás és agilitás</li>
+              <li>Komplex full-stack rálátás (a front-end animációktól a backend routing-ig)</li>
+              <li>Önálló munkavégzés és proaktív csapatmunka</li>
+              <li>Precízió és határidők tiszteletben tartása</li>
+              <li>Nagy terhelhetőség és folyamatos tanulási vágy</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid_2"><div class="vertical_line2"></div></div>
+        <div class="grid_10">
+          <div class="ribbon2">Lépjünk kapcsolatba</div>
+
+          <div id="contact-area">
+            <form id="contact-form">
+              <label for="name">Név:</label>
+              <input type="text" name="name" id="name" required />
+
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required />
+
+              <label for="message">Üzenet:</label><br />
+              <textarea name="message" rows="5" cols="20" id="message" required></textarea>
+
+              <!-- Invisible reCAPTCHA gomb -->
+              <button
+                class="g-recaptcha submit-button"
+                data-sitekey="6LdnIvEtAAAAAExFfVs-_cSV0UTpR1i83tQFl0Bd"
+                data-callback="onSubmit"
+                data-action="submit"
+              >
+                Küldés
+              </button>
+            </form>
+
+            <!-- EmailJS és reCAPTCHA szkriptek -->
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            <script
+              type="text/javascript"
+              src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+            ></script>
+
+            <script type="text/javascript">
+              // EmailJS inicializálása a Public Key-el
+              emailjs.init('tk-XdVYJ-kLhh6F_i');
+
+              function onSubmit(token) {
+                var form = document.getElementById('contact-form');
+
+                // Mezők kötelező kitöltésének ellenőrzése
+                if (!form.checkValidity()) {
+                  form.reportValidity();
+                  grecaptcha.reset();
+                  return;
+                }
+
+                // E-mail küldése (A Service ID-t cseréld ki!)
+                emailjs.sendForm('service_md3bj6q', 'template_l7ab638', '#contact-form').then(
+                  function () {
+                    alert(
+                      'Szuper! Az üzenet sikeresen elküldve. A visszaigazolás hamarosan megérkezik.',
+                    );
+                    form.reset();
+                    grecaptcha.reset();
+                  },
+                  function (error) {
+                    alert('Sajnos hiba történt a küldés során: ' + JSON.stringify(error));
+                    grecaptcha.reset();
+                  },
+                );
+              }
+            </script>
+          </div>
+        </div>
+
+        <div class="grid_1"><div class="holder"></div></div>
+        <div class="grid_24"><div class="horisontal_line"></div></div>
+      </div>
+    </div>
+
+    <div style="display: none" class="nav_up" id="nav_up"></div>
+    <div style="display: none" class="nav_down" id="nav_down"></div>
+  </body>
+</html>
