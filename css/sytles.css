@@ -299,7 +299,8 @@ img.floatLeft {
 }
 #skill_list2 {
   float: left;
-  margin: -5px 0 0 -30px;
+  width: 160px; /* Szélesebb helyet adunk a hosszú neveknek */
+  margin: -5px 0 0 0;
 }
 .year {
   height: 100px;
@@ -323,6 +324,7 @@ img.floatLeft {
   font-size: 18px;
   line-height: 1.5em;
   font-weight: bold;
+  white-space: nowrap; /* Megakadályozza a sortörést */
 }
 #skill_set {
   margin: 0;
@@ -331,16 +333,17 @@ img.floatLeft {
   list-style-type: none;
 }
 #technical_skill {
-  height: 240px;
-  margin: 15px 0 0;
+  height: auto; /* A fix 240px helyett automatikusan igazodik a tartalomhoz */
+  overflow: hidden; /* Megakadályozza, hogy a sávok kifolyjanak a dobozból */
+  margin: 15px 0 20px 0;
 }
 .progress_container {
   padding: 1px;
   height: 15px;
   overflow: hidden;
   background-color: #ccc;
-  margin: 0 0 10px 90px;
-  width: 270px;
+  margin: 0 0 10px 170px; /* Eltoltuk jobbra (90px-ről 170px-re), hogy elférjen a szöveg */
+  width: 200px; /* Kicsit rövidebb lett, hogy ne lógjon ki a jobb oldalon */
 }
 
 .progress_bar {
